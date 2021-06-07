@@ -57,7 +57,7 @@ function Login() {
 
             <div className="mb-3">
                 <br />
-                {isLogin ? <h5>If You Dont Have A Account, Please <button className="btn btn-primary" onClick = {() => setLogin(false)}>Register</button> Here</h5> 
+                {isLogin ? <h5>If you Dont Have A Account , Please <button className="btn btn-primary" onClick = {() => setLogin(false)}>Register</button> Here</h5> 
                 : <h5>If You Have A Account, Please<button className="btn btn-primary" onClick = {() => setLogin(true)}>Login</button> Here</h5>
 
                 }
